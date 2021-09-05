@@ -468,3 +468,28 @@ align-self: center;
     font-size: var(--normal-font-size);
     font-weight: var(--font-semi-bold);
 }
+/*footer*/
+.footer__container{
+    grid-template-columns: repeat(auto-fit,minmax(220px, 1fr));
+}
+.footer__box{
+    margin-bottom: var(--mb-4);
+}
+.footer__title{
+    font-size: var(--big-font-size);
+}
+.footer__link{
+    display: block;
+    width: max-content;
+    margin-bottom: var(--mb-1);
+}
+.footer__social{
+    font-size: 1.5rem;
+    margin-right: 1.25rem;
+}
+.footer__copy{
+    padding-top: 3rem;
+    font-size: var(--smaller-font-size);
+    color: var(--black-light-color);
+    text-align: center;
+}
